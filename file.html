@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="file.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Task List</h1>
+        <form id="new_task_form">
+            <input type="text" id="new_task_input" style="
+                    width: 400px;
+                    height: 50px;
+                    border-radius: 15px;
+                    background-color: #111827;
+                    color: #eee;"
+            >
+            <input type="submit" id="new_task_submit" value="Add task" style="
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: #8b5cf6;
+            font-size: 14px;
+            cursor: pointer;">
+        </form>
+    </header>
+    <main>
+        <section class="task-list">
+            <h2>Tasks</h2>
+            <div id="tasks">
+                <!-- <div class="content">
+                    <input type="text" class="text" readonly>
+                </div>
+                <div class="action">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </div> -->
+            </div>
+        </section>
+    </main>
+    <script src="file.js"></script>
+</body>
+</html>
